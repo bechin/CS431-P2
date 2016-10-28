@@ -68,7 +68,7 @@ public class ProcessScheduler{
 		printAvgTurnTime();
 	}
 
-	private static void	shortestFirst(){
+	private static void shortestFirst(){
 		System.out.println("Running shortest first scheduler.");
 		int curProcNum = 0;
 		while(masterPC < totalCycles){
